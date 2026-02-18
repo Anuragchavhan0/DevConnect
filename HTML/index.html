@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DevConnect</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>DevConnect</h1>
+        <button id="themeToggle">Toggle Theme</button>
+    </header>
+
+    <section class="search-section">
+        <h2>Search by Skill</h2>
+        <input type="text" id="skillSearch" placeholder="Enter skill to search">
+    </section>
+
+
+    <section class="profile-form">
+        <h2>Create Profile</h2>
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="text" id="bio" placeholder="Short Bio">
+        <input type="text" id="skills" placeholder="Skills (comma separated)">
+        <input type="text" id="github" placeholder="GitHub Username">
+        <button id="createProfile">Create Profile</button>
+    </section>
+
+    <section class="profile-display">
+        <h2>Your Profile</h2>
+        <div id="profileCard"></div>
+    </section>
+
+    <section class="github-repos">
+        <h2>GitHub Repositories</h2>
+        <div id="repos"></div>
+    </section>
+
+    <script src="/JAVASCRIPT/app.js"></script>
+    <script src="/JAVASCRIPT/api.js"></script>
+    <script src="/JAVASCRIPT/storage.js"></script>
+    <script src="/JAVASCRIPT/theme.js"></script>
+
+</body>
+
+</html>
